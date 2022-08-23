@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CounterComponent } from '../widgets/counter.component';
 import { BoxComponent } from './components/box.component';
 import { ColComponent } from './components/col.component';
 import { GridComponent } from './components/grid.component';
@@ -11,7 +10,7 @@ const COMPONENTS = [
   ColComponent,
   GridComponent,
   UrlDirective,
-  CounterComponent,
+ 
 ]
 
 @NgModule({

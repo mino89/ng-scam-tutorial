@@ -1,3 +1,4 @@
+import { CounterModule } from './shared/widgets/counter.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -14,7 +15,8 @@ import { NavbarComponent } from './core/components/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CounterModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

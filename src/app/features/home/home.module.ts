@@ -1,3 +1,4 @@
+import { CounterModule } from './../../shared/widgets/counter.module';
 import { HomeNewsModule } from './home-news/home-news.module';
 import { HomeCarouselModule } from './home-carousel/home-carousel.module';
 import { UikitModule } from './../../shared/uikit/uikit.module';
@@ -13,6 +14,7 @@ import { HomeComponent } from './home.component';
   imports: [
     CommonModule,
     UikitModule,
+    CounterModule,
     HomeRoutingModule,
     HomeCarouselModule,
     HomeNewsModule

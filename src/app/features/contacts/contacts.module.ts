@@ -1,3 +1,4 @@
+import { CounterModule } from './../../shared/widgets/counter.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -12,6 +13,7 @@ import { UikitModule } from 'src/app/shared/uikit/uikit.module';
     CommonModule,
     ContactsRoutingModule,
     UikitModule,
+    CounterModule
   ]
 })
 export class ContactsModule { }
